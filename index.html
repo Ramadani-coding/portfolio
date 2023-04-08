@@ -7,6 +7,7 @@
     <title>Potfolio Ahmad Ramadani</title>
     <link href="dist/css/final.css" rel="stylesheet" />
     <link href="css/tailwind.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="dist/img/Bg-hiro.png" type="image/x-icon" />
     <script>
       if (localStorage.theme === "dark" || (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
         document.documentElement.classList.add("dark");
@@ -181,10 +182,35 @@
         </div>
 
         <div class="px4 flex w-full flex-wrap justify-center xl:mx-auto xl:w-10/12">
+          <!-- Game -->
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="overflow-hidden rounded-md shadow-md">
+              <img src="dist/img/portfolio/game.png" alt="Game" width="w-full" />
+            </div>
+            <h3 class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white"><a href="https://game-js-nine.vercel.app/" target="_blank">Game</a></h3>
+            <p class="text-base font-medium text-secondary">
+              Game yang dibuat hanya dengan JavaScript murni dan menghadirkan kejutan menarik di setiap levelnya.
+              <a href="https://game-js-nine.vercel.app/" class="text-primary" target="_blank">Coba Game</a>
+            </p>
+          </div>
+
+          <!-- Switcher -->
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="overflow-hidden rounded-md shadow-md">
+              <img src="dist/img/portfolio/switcher.png" alt="Switcher" width="w-full" />
+            </div>
+            <h3 class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white"><a href="https://ramadani-coding.github.io/switcher/" target="_blank">Switcher</a></h3>
+            <p class="text-base font-medium text-secondary">
+              Bagaimana jika saya menghadirkan sebuah program yang memungkinkan Anda untuk menukar posisi index pada array dengan mudah? Dengan fitur ini, Anda dapat mengubah urutan elemen dalam array sesuai dengan keinginan Anda. Jangan
+              ragu untuk mencoba program ini dan temukan manfaatnya sendiri!
+              <a href="https://ramadani-coding.github.io/switcher/" class="text-primary" target="_blank">Lihat Website</a>
+            </p>
+          </div>
+
           <!-- Movie -->
           <div class="mb-12 p-4 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
-              <img src="dist/img/portfolio/movie.png" alt="Desain Brosur $ typography" width="w-full" />
+              <img src="dist/img/portfolio/movie.png" alt="Movie" width="w-full" />
             </div>
             <h3 class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white"><a href="https://ramadani-coding.github.io/movie-app/" target="_blank">BeeNima</a></h3>
             <p class="text-base font-medium text-secondary">
@@ -196,7 +222,7 @@
           <!-- Bot NT -->
           <div class="mb-12 p-4 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
-              <img src="dist/img/portfolio/botNT.png" alt="Desain Brosur $ typography" width="w-full" />
+              <img src="dist/img/portfolio/botNT.png" alt="Bot NT" width="w-full" />
             </div>
             <h3 class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white"><a href="https://ramadani-coding.github.io/Bot-NT/" target="_blank">Bot NT</a></h3>
             <p class="text-base font-medium text-secondary">
@@ -209,7 +235,7 @@
           <!-- Link Tree -->
           <div class="mb-12 p-4 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
-              <img src="dist/img/portfolio/linktree.png" alt="Desain Brosur $ typography" width="w-full" />
+              <img src="dist/img/portfolio/linktree.png" alt="Link Tree" width="w-full" />
             </div>
             <h3 class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white"><a href="https://ramadani-coding.github.io/linktree/" target="_blank">Link Tree</a></h3>
             <p class="text-base font-medium text-secondary">
@@ -221,7 +247,7 @@
           <!-- Fake Login -->
           <div class="mb-12 p-4 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
-              <img src="dist/img/portfolio/fakeLogin-js.png" alt="Desain Brosur $ typography" width="w-full" />
+              <img src="dist/img/portfolio/fakeLogin-js.png" alt="Fake Login & Register" width="w-full" />
             </div>
             <h3 class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white"><a href="https://ramadani-coding.github.io/Fake-Login/" target="_blank">Fake Login & Register</a></h3>
             <p class="text-base font-medium text-secondary">
@@ -233,7 +259,7 @@
           <!-- Typografi $ Desain Grafis -->
           <div class="mb-12 p-4 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
-              <img src="dist/img/portfolio/5.jpg" alt="Desain Brosur $ typography" width="w-full" />
+              <img src="dist/img/portfolio/5.jpg" alt="Desain Brosur & typography" width="w-full" />
             </div>
             <h3 class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white">Typography & Desain Brosur</h3>
             <p class="text-base font-medium text-secondary">
@@ -339,8 +365,8 @@
         <div class="w-full px-4">
           <div class="mx-auto mb-16 max-w-xl text-center">
             <h4 class="mb-2 text-lg font-semibold text-primary">Kontak</h4>
-            <h2 class="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-3xl lg:text-4xl">Hubungi Kami</h2>
-            <p class="text-md font-medium text-secondary md:text-lg">Kami ingin mendengar dari Anda! Jangan ragu untuk menghubungi kami melalui formulir kontak kami untuk mengobrol tentang proyek atau ide bisnis Anda.</p>
+            <h2 class="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-3xl lg:text-4xl">Hubungi saya</h2>
+            <p class="text-md font-medium text-secondary md:text-lg">saya ingin mendengar dari kalian! Jangan ragu untuk menghubungi saya melalui form kontak saya untuk mengobrol tentang proyek atau ide bisnis kalian.</p>
           </div>
         </div>
 
